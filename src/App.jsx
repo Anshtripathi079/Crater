@@ -1,3 +1,4 @@
+import Faqs from "./components/Faqs/Faqs";
 import Features from "./components/Features/Features";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
@@ -12,6 +13,7 @@ const App = () => {
       <Service />
       <Features />
       <Testimonials />
+      <Faqs />
     </div>
   );
 };
