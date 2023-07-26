@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  padding: 20px 100px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.navbar span {
+  font-size: 3rem;
+  color: white;
+  font-weight: 500;
+}
+.nav__ul {
+  display: flex;
+  gap: 30px;
+}
+.nav__ul li {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.nav__ul li a {
+  color: white;
+}
+.nav__ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: red;
+  display: block;
+  margin: auto;
+  transition: linear 0.3s;
+}
+.nav__ul li:hover::after {
+  width: 100%;
+}
