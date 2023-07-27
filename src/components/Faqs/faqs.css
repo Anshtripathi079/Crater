@@ -70,6 +70,6 @@
 @media screen and (max-width: 375px) {
   .faq-card {
     width: 300px;
-    padding: 10px;
+    padding: 20px;
   }
 }
