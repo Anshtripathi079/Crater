@@ -12,6 +12,7 @@
   max-width: 1400px;
   margin-inline: auto;
   overflow: hidden;
+  padding: 10px;
 }
 .testimonials__innersection {
   display: flex;
