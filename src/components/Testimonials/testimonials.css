@@ -16,6 +16,7 @@
 .testimonials__innersection {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .testimonial__card {
   background-color: #fff;
@@ -95,6 +96,18 @@
 }
 .testimonial_btn button:hover {
   background: #2bf02bce;
+}
+@media screen and (max-width: 1024px) {
+  .testimonials__innersection {
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .testimonials__innersection {
+    justify-content: space-evenly;
+    gap: 20px;
+  }
 }
 @media screen and (max-width: 425px) {
   .testimonials__innersection {

@@ -50,13 +50,44 @@
 .left__hero a:hover {
   background: #2bf02bce;
 }
-/* .right__hero {
-  max-width: auto;
-} */
+.auto-span {
+  font-size: 2rem;
+}
+
 .right__hero img {
-  /* width: 600px; */
   width: 600px;
-  /* height: auto; */
+}
+@media screen and (max-width: 1024px) {
+  .hero__section {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .left__hero {
+    min-width: 95%;
+    gap: 5px;
+  }
+  .right__hero img {
+    width: 100%;
+  }
+  .hero__container {
+    margin-top: 0rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero__section {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .left__hero {
+    min-width: 90%;
+    gap: 5px;
+  }
+  .right__hero img {
+    width: 100%;
+  }
+  .hero__container {
+    margin-top: 0rem;
+  }
 }
 @media screen and (max-width: 425px) {
   .hero__section {
@@ -71,13 +102,16 @@
     width: 100%;
   }
   .hero__container {
-    margin-top: 0rem;
+    margin-top: -1rem;
   }
   .left__hero h1 {
     font-size: 2.5rem;
   }
   .left__hero h2 {
-    font-size: 2.2rem;
+    font-size: 1.7rem;
+  }
+  .auto-span {
+    font-size: 1.4rem;
   }
   .left__hero p {
     font-weight: 300;

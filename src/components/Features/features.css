@@ -60,6 +60,16 @@
   color: #ffffff;
   opacity: 84.3%;
 }
+@media screen and (max-width: 1024px) {
+  .features {
+    margin: 0 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .features {
+    margin: 0 10px;
+  }
+}
 @media screen and (max-width: 425px) {
   .features {
     flex-direction: column;

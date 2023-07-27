@@ -22,8 +22,8 @@ const Hero = () => {
           <h2>
             AI-powered Business Manager for{" "}
             <span
-              style={{ fontWeight: "bold", fontSize: "2rem" }}
-              className="yellow__txt"
+              style={{ fontWeight: "bold" }}
+              className="yellow__txt auto-span"
             >
               {text}
             </span>

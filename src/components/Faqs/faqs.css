@@ -43,6 +43,16 @@
   font-weight: 500;
   color: black;
 }
+@media screen and (max-width: 1024px) {
+  .faqs {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 768px) {
+  .faqs {
+    grid-template-columns: 1fr;
+  }
+}
 @media screen and (max-width: 425px) {
   .faqs {
     grid-template-columns: 1fr;
