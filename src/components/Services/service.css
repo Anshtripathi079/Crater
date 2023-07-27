@@ -48,6 +48,7 @@
   gap: 10px;
   row-gap: 30px;
   justify-items: center;
+  overflow: hidden;
 }
 .service__card {
   width: 400px;
@@ -70,4 +71,37 @@
   font-size: 1rem;
   font-weight: 500;
   color: black;
+}
+@media screen and (max-width: 425px) {
+  .services__section {
+    margin-top: 5rem;
+  }
+  .serviceCard__container {
+    grid-template-columns: 1fr;
+  }
+  .services__subdiv {
+    text-align: center;
+  }
+  .logos {
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+  .services__section p {
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .service__card {
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  .service__card h3 {
+    font-size: 1.2rem;
+  }
+  .service__card p {
+    font-size: 0.9rem;
+  }
+  .services__subdiv div {
+    font-size: 1.4rem;
+  }
 }

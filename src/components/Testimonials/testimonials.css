@@ -11,6 +11,7 @@
   margin-top: 30px;
   max-width: 1400px;
   margin-inline: auto;
+  overflow: hidden;
 }
 .testimonials__innersection {
   display: flex;
@@ -94,4 +95,11 @@
 }
 .testimonial_btn button:hover {
   background: #2bf02bce;
+}
+@media screen and (max-width: 425px) {
+  .testimonials__innersection {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
 }

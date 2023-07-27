@@ -6,7 +6,7 @@ import whatsapp from "./images/whatsapp.png";
 const Footer = () => {
   return (
     <div className="footer__container">
-      <div>
+      <div className="left__div">
         <h1>Crater</h1>
         <p>
           Crater is an AI-powered Business Manager for Creators & Freelancers.

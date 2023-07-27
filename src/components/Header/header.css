@@ -33,3 +33,8 @@
 .nav__ul li:hover::after {
   width: 100%;
 }
+@media screen and (max-width: 425px) {
+  .nav__ul {
+    display: none;
+  }
+}

@@ -18,6 +18,7 @@
   justify-content: space-between;
   align-items: center;
   justify-items: center;
+  overflow: hidden;
 }
 .faq-card {
   width: 600px;
@@ -41,4 +42,18 @@
   font-size: 1rem;
   font-weight: 500;
   color: black;
+}
+@media screen and (max-width: 425px) {
+  .faqs {
+    grid-template-columns: 1fr;
+  }
+  .faq-card {
+    width: 360px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 30px;
+  }
+  .faq-card p {
+    font-size: 0.8rem;
+  }
 }
