@@ -4,7 +4,7 @@ import more from "./photos/more.png";
 import like from "./photos/like.png";
 import comment from "./photos/comment.png";
 import send from "./photos/send.png";
-// import save from "./photos/save.png";
+
 import save from "./photos/save2.png";
 const Testimonials = () => {
   return (

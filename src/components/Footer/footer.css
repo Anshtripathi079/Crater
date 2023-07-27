@@ -1,0 +1,28 @@
+.footer__container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  padding: 40px;
+  gap: 15px;
+  align-items: center;
+}
+.middle__div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.right__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+.footer_icons {
+  display: flex;
+  gap: 5px;
+}
+.footer_icons img {
+  height: 30px;
+}
