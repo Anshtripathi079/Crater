@@ -137,7 +137,11 @@
 }
 @media screen and (max-width: 375px) {
   .service__card {
-    width: 300px;
+    width: 290px;
+  }
+  .serviceCard__container {
+    align-items: center;
+    justify-items: center;
   }
 }
 @media screen and (max-width: 320px) {
