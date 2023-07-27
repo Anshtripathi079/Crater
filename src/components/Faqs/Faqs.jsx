@@ -2,7 +2,7 @@ import "./faqs.css";
 import faqData from "./data";
 const Faqs = () => {
   return (
-    <section className="faqs__section">
+    <section className="faqs__section" id="faq">
       <div className="faq__heading">FAQ'S</div>
       <div className="faqs">
         {faqData.map((item, id) => {

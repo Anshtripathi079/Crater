@@ -6,7 +6,7 @@ import linkedin from "./images/linkedin.png";
 import ServicesCard from "./ServicesCard";
 const Service = () => {
   return (
-    <div className="services__section">
+    <div className="services__section" id="services">
       <p>Get all your Platform Data. All in one place.</p>
       <div className="logos">
         <span>

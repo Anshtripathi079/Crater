@@ -5,7 +5,7 @@ import facebook from "./images/facebook.png";
 import whatsapp from "./images/whatsapp.png";
 const Footer = () => {
   return (
-    <div className="footer__container">
+    <div className="footer__container" id="footer">
       <div className="left__div">
         <h1>Crater</h1>
         <p>
@@ -20,10 +20,18 @@ const Footer = () => {
       </div>
       <div className="right__div">
         <div className="footer_icons">
-          <img src={insta} alt="instagram" />
-          <img src={linkedin} alt="linkedin" />
-          <img src={facebook} alt="facebook" />
-          <img src={whatsapp} alt="whatsapp" />
+          <a href="https://www.instagram.com/crater.ai/" target="_black">
+            <img src={insta} alt="instagram" />
+          </a>
+          <a href="https://www.linkedin.com/company/the-crater/">
+            <img src={linkedin} alt="linkedin" />
+          </a>
+          <a href="https://www.facebook.com/thecrater.co">
+            <img src={facebook} alt="facebook" />
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=919703615148">
+            <img src={whatsapp} alt="whatsapp" />
+          </a>
         </div>
         <p>Sports Inddex N Tech Private Limited</p>
         <p>

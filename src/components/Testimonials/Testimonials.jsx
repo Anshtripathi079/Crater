@@ -8,7 +8,7 @@ import send from "./photos/send.png";
 import save from "./photos/save2.png";
 const Testimonials = () => {
   return (
-    <section className="testimonials">
+    <section className="testimonials" id="testimonial">
       <div className="test-title">10,000+ Users have signed up!</div>
       <div className="testimonial__container">
         <div className="testimonials__innersection">
