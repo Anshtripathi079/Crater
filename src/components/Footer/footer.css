@@ -5,19 +5,21 @@
   background-color: black;
   color: white;
   padding: 40px;
-  gap: 15px;
+  gap: 30px;
   align-items: center;
 }
 .middle__div {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  text-align: center;
 }
 .right__div {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 7px;
+  text-align: center;
 }
 .footer_icons {
   display: flex;

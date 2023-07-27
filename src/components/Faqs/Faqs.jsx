@@ -2,7 +2,7 @@ import "./faqs.css";
 import faqData from "./data";
 const Faqs = () => {
   return (
-    <section className="faqs__section" id="faq">
+    <section className="faqs__section" id="faq" data-aos="fade-up">
       <div className="faq__heading">FAQ'S</div>
       <div className="faqs">
         {faqData.map((item, id) => {
@@ -10,6 +10,7 @@ const Faqs = () => {
             <div
               key={id}
               className="faq-card"
+              data-aos="zoom-in"
               style={{ background: item.bgColor }}
             >
               <h3>{item.question}</h3>

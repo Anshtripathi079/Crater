@@ -5,7 +5,7 @@ import facebook from "./images/facebook.png";
 import whatsapp from "./images/whatsapp.png";
 const Footer = () => {
   return (
-    <div className="footer__container" id="footer">
+    <div className="footer__container" id="footer" data-aos="fade-up">
       <div className="left__div">
         <h1>Crater</h1>
         <p>

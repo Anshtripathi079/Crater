@@ -1,7 +1,9 @@
 import "./hero.css";
 import hero from "./hero-img.png";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-const Hero = () => {
+import { Tilt } from "react-tilt";
+
+const Hero = ({ defaultOptions }) => {
   const [text] = useTypewriter({
     words: [
       "Rebels",
@@ -17,7 +19,7 @@ const Hero = () => {
   return (
     <div className="hero__container">
       <div className="hero__section">
-        <div className="left__hero">
+        <div className="left__hero" data-aos="fade-right">
           <h1>Crater</h1>
           <h2>
             AI-powered Business Manager for{" "}
@@ -40,8 +42,10 @@ const Hero = () => {
           </p>
           <a href="#">Get Early access</a>
         </div>
-        <div className="right__hero">
-          <img src={hero} alt="hero-img" />
+        <div className="right__hero" data-aos="fade-left">
+          <Tilt options={defaultOptions}>
+            <img src={hero} alt="hero-img" />
+          </Tilt>
         </div>
       </div>
     </div>

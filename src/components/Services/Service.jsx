@@ -6,7 +6,7 @@ import linkedin from "./images/linkedin.png";
 import ServicesCard from "./ServicesCard";
 const Service = () => {
   return (
-    <div className="services__section" id="services">
+    <div className="services__section" id="services" data-aos="fade-up">
       <p>Get all your Platform Data. All in one place.</p>
       <div className="logos">
         <span>
@@ -26,7 +26,7 @@ const Service = () => {
         </span>
         <span>+more</span>
       </div>
-      <div className="services__subdiv">
+      <div className="services__subdiv" data-aos="fade-up">
         <div>All the creator business tools.</div>
         <div>All with your Crater account.</div>
       </div>

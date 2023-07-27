@@ -4,7 +4,7 @@ import exclamation from "./images/exclamation.png";
 import { withCrater, withoutCrater } from "./data";
 const Features = () => {
   return (
-    <section className="features__container">
+    <section className="features__container" data-aos="fade-up">
       <h2>Why Crater ?</h2>
       <div className="features">
         <div className="left-feature">
