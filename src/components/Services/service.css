@@ -107,6 +107,7 @@
   }
   .serviceCard__container {
     grid-template-columns: 1fr;
+    margin: 0 20px;
   }
   .services__subdiv {
     text-align: center;
@@ -132,5 +133,15 @@
   }
   .services__subdiv div {
     font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .service__card {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .service__card {
+    width: 250px;
   }
 }

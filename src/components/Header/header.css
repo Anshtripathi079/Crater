@@ -48,8 +48,8 @@ nav ul li a:not(.active):hover {
 nav .menu {
   display: none;
   position: absolute;
-  top: 0.75rem;
-  right: 0.5rem;
+  top: 1.6rem;
+  right: 0.8rem;
   flex-direction: column;
   justify-content: space-between;
   width: 2.25rem;

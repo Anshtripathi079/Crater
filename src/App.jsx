@@ -7,7 +7,11 @@ import Service from "./components/Services/Service";
 import Testimonials from "./components/Testimonials/Testimonials";
 import AOS from "aos";
 import "aos/dist/aos.css";
-AOS.init();
+
+AOS.init({
+  offset: 100,
+  duration: 1000,
+});
 const App = () => {
   const defaultOptions = {
     reverse: false,
